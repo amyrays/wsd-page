@@ -5,13 +5,13 @@ body{
 h1, h2, h3, h4{
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 32px;
-	text-shadow: 4px 4px 3px #444;
+	text-shadow: 4px 4px 4px #aaa;
 }
 
 h5{
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 24px;
-	text-shadow: 4px 4px 3px #444;
+	text-shadow: 4px 4px 4px #aaa;
 }
 /* Links-------------------------------------------------------------------------*/
 a:link{
