@@ -1,0 +1,51 @@
+body{
+	width: 800px;
+}
+/* Headers-----------------------------------------------------------------------*/
+h1, h2, h3, h4{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 32px;
+	text-shadow: 4px 4px 3px #444;
+}
+
+h5{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 24px;
+	text-shadow: 4px 4px 3px #444;
+}
+/* Links-------------------------------------------------------------------------*/
+a:link{
+	color: #4B0082;
+}
+a:visited{
+	color: #C71585;
+}
+a:hover{
+	color: #0000FF;
+}
+a:active{
+	color: #228B22;
+}
+/* Main Nav----------------------------------------------------------------------*/
+ul{
+	list-style-type: none;
+}
+/* Paragraphs--------------------------------------------------------------------*/
+p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: justify;
+}
+/* Other Page Elements-----------------------------------------------------------*/
+
+li{font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+
+
+
+
+
