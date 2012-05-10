@@ -24,7 +24,8 @@ li{
 #logo{
 	float: left;
 }
-ul li{
+
+#logo ul li{
 	list-style-type: none;
 	padding-left: 30px;
 	font-size: 36px;
@@ -147,6 +148,11 @@ ol li{
 	padding: 0px 10px 10px 10px;
 	margin-bottom: 20px;
 	overflow: hidden;
+}
+
+#cta ul li{
+	list-style-type: none;
+	float: left;
 }
 
 .button{
