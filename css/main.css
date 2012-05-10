@@ -20,11 +20,14 @@ li{
 	margin: 0;
 }
 /* Main Nav----------------------------------------------------------------------*/
+
+#logo{
+	float: left;
+}
 ul li{
 	list-style-type: none;
-}
-
-img{
+	padding-left: 30px;
+	font-size: 36px;
 	float: left;
 }
 
@@ -71,7 +74,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* Mission Statement------------------------------------------------------------*/
 section{
-	width: 608px;
+	width: 612px;
 	height: 250px;
 	background-color: #660099;
 	border: 2px outset #333;
@@ -135,7 +138,7 @@ ol li{
 
 /* Main Call to Action-----------------------------------------------------------*/
 #cta{	
-	width: 943px;
+	width: 938px;
 	background-color: #660099;
 	border: 2px outset #333;
 	border-radius: 10px;
