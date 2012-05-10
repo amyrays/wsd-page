@@ -1,0 +1,183 @@
+/* Color Swatch------------------------------------------------------------------------
+		Text		#E6E6FF
+		Black		#000
+		Purple		#660099	
+-------------------------------------------------------------------------------------*/
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0; 
+	background: url(../images/gradient_bg.jpg);
+}
+
+li{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+	margin: 0;
+}
+/* Main Nav----------------------------------------------------------------------*/
+ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+img{
+	float: left;
+}
+
+/* Links-------------------------------------------------------------------------*/
+a:link{
+	color: #4B0082;
+}
+a:visited{
+	color: #C71585;
+}
+a:hover{
+	color: #0000FF;
+}
+a:active{
+	color: #228B22;
+}
+
+/* Headers-----------------------------------------------------------------------*/
+h1, h2, h3, h4, h5{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 32px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+h6{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 24px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+}
+
+#branding{
+	text-indent: -90000px;
+}
+
+/* Paragraphs--------------------------------------------------------------------*/
+
+
+/* Mission Statement------------------------------------------------------------*/
+section{
+	width: 608px;
+	height: 250px;
+	background-color: #660099;
+	border: 2px outset #333;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #333;
+	color: #E6E6FF;
+	padding: 0px 10px;
+	clear: left;
+	float: left;
+}
+.mission{
+	text-align: justify;
+	margin: 0;
+}
+/* Description-------------------------------------------------------------------*/
+.description{
+	width: 308px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-color: #000;
+	opacity: 0.9;
+	border: 2px outset #333;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #333;
+	color: #E6E6FF;
+	float: left;
+}
+
+ol li{
+	font-size: 18px;
+	margin: 0;
+	
+}
+
+/* Testimonials-----------------------------------------------------------*/
+.testimonials{
+	background-color: #000;
+	border: 2px outset #333;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #333;
+	margin-bottom: 10px;
+	color: #E6E6FF;
+	clear: left;
+}
+.testimonials div p{
+	padding: 0px 10px;
+	-moz-column-count: 3; 
+	-moz-column-gap: 1em; 
+	-moz-column-rule: 1px #E6E6FF; 
+	-webkit-column-count: 3; 
+	-webkit-column-gap: 1em; 
+	-webkit-column-rule: 1px #E6E6FF;
+}
+
+.testimonials footer{
+	text-align: justify;
+	font-weight: bold;
+	padding: 0px 10px;
+	float: left;
+}
+
+/* Main Call to Action-----------------------------------------------------------*/
+#cta{	
+	width: 943px;
+	background-color: #660099;
+	border: 2px outset #333;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #333;
+	color: #E6E6FF;
+	padding: 0px 10px 10px 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.button{
+	display: block;
+}
+/* Advertising-------------------------------------------------------------------*/
+
+aside{
+	clear: left;
+	background-color: #888;
+	border: 2px outset #333;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #333;
+	color: #E6E6FF;
+}
+
+/* Footer------------------------------------------------------------------------*/
+
+.copyright{
+	background-color: #888;
+	border: 2px outset #333;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #333;
+	font-size: 16px;
+	color: #E6E6FF;
+	text-align: center;
+	padding: 10px;
+}
+
+/* Other Page Elements-----------------------------------------------------------*/
+
+
+
+
+
+
+
