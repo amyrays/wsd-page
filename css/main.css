@@ -42,7 +42,7 @@ a:active{
 /* Main Nav----------------------------------------------------------------------*/
 
 #logo{
-/*	float: left; */
+	float: left;
 	display: block;
 }
 
@@ -67,6 +67,9 @@ nav ul li a{
 	height: 44px;
 	line-height: 44px;
 	text-align: center;
+}
+
+a:link{
 	color: #E6E6FF;
 }
 
