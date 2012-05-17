@@ -5,9 +5,8 @@
 -------------------------------------------------------------------------------------*/
 body{
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20px;
-	line-height: 1.2;
-	width: 960px;
+	font-size: 100%/1.2;
+	max-width: 960px;
 	margin: 0 auto;
 	padding: 0; 
 	background: url(../images/gradient_bg.jpg);
@@ -15,27 +14,15 @@ body{
 
 li{
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20px;
+	font-size: 1.25em; /* 20px */
 	line-height: 1.2;
 	margin: 0;
 }
-/* Main Nav----------------------------------------------------------------------*/
 
-#logo{
-	float: left;
+p{
+	font-size: 1.25em; /* 20px */
 }
 
-nav ul{
-	display: block;
-}
-
-nav ul li{
-	list-style-type: none;
-	padding-left: 10px;
-	margin: 60px 0px 10px 80px;
-	font-size: 36px;
-	float: left;
-}
 
 /* 
 Links-------------------------------------------------------------------------*/
@@ -52,10 +39,56 @@ a:active{
 	color: #228B22;
 }
 
+/* Main Nav----------------------------------------------------------------------*/
+
+#logo{
+	float: left;
+}
+
+nav ul{
+	width: 83.333333%; /* 800px/960px */
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li{
+	width: 21.25%; /* 170px/800px */
+	font-size: 2.25em; /* 36px/16px */
+	float: left;
+	overflow: hidden;
+}
+
+nav ul li a{
+	text-decoration: none;
+	background: #FFFF00;
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: #E6E6FF;
+}
+
+a:visited{
+	color: #C71585;
+}
+
+a:hover{
+	color: #FFFF00;
+	background: #660099;
+}
+
+a:active{
+	color: #FFFF00;
+	background: #000;
+}
+
+
+
 /* Headers-----------------------------------------------------------------------*/
 h1, h2, h3, h4, h5{
 	font-family: 'Berkshire Swash', cursive;
-	font-size: 32px;
+	font-size: 2em;
 	text-shadow: 4px 4px 4px #aaa;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
@@ -63,7 +96,7 @@ h1, h2, h3, h4, h5{
 
 h6{
 	font-family: 'Berkshire Swash', cursive;
-	font-size: 24px;
+	font-size: 1.5em;
 	text-shadow: 4px 4px 4px #aaa;
 }
 
@@ -82,14 +115,13 @@ h1, h2, h3, h4, h5, h6{
 
 /* Mission Statement------------------------------------------------------------*/
 section{
-	width: 612px;
-	height: 248px;
+	width: 63.75%; /* 612px/960px */
 	background-color: #660099;
 	border: 2px outset #333;
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px #333;
 	color: #E6E6FF;
-	padding: 0px 10px;
+	padding: 0% 1.0416667% 1.4583333%; /* 0px 10px 14px */
 	clear: left;
 	float: left;
 }
@@ -99,9 +131,9 @@ section{
 }
 /* Description-------------------------------------------------------------------*/
 .description{
-	width: 308px;
-	margin-left: 10px;
-	margin-bottom: 10px;
+	width: 32.083333%; /* 308px/960px */
+	margin-left: 1.0416667%; /* 10px/960px */
+	margin-bottom: 1.0416667%; /* 10px/960px */
 	background-color: #000;
 	opacity: 0.9;
 	border: 2px outset #333;
@@ -112,52 +144,40 @@ section{
 }
 
 ol li{
-	font-size: 18px;
+	font-size: 1.125em; /* 18px */
 	margin: 0;
 	
 }
 
 /* Testimonials-----------------------------------------------------------*/
 .testimonials{
+	width: 99.375%; /* 954px/960px */
 	background-color: #000;
 	border: 2px outset #333;
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px #333;
-	margin-bottom: 10px;
+	margin-bottom: 1.0416667%; /* 10px/960px */
 	color: #E6E6FF;
 	clear: left;
 }
 .testimonials div p{
-	padding: 0px 10px;
+	padding: 0% 1.0416667%; /* 0px 10px */
 	-moz-column-count: 3; 
 	-moz-column-gap: 1em; 
-	-moz-column-rule: 1px #E6E6FF; 
+	-moz-column-rule: 0.10416667% /*1px*/ #E6E6FF; 
 	-webkit-column-count: 3; 
 	-webkit-column-gap: 1em; 
-	-webkit-column-rule: 1px #E6E6FF;
+	-webkit-column-rule: 0.10416667% /*1px*/ #E6E6FF;
 	text-align: justify;
-}
-
-.testimonials footer{
-	text-align: justify;
-	font-weight: bold;
-	padding: 0px 10px;
-	float: left;
 }
 
 /* Main Call to Action-----------------------------------------------------------*/
 
-h5{
-	float: left;
-	padding: 10px 50px 20px 10px;
-	margin-left: 300px;	
-}
-
 .button{
 	overflow: hidden;
 	display: block;
-	width: 160px;
-	height: 40px;
+	width: 16.666667%; /* 160px/960px */
+	height: 4.287245444% /*40px*/
 	text-align: center;
 	text-decoration: none;
 	margin: 10px 0px 10px 20px;
@@ -165,19 +185,17 @@ h5{
 	border-radius: 10px;
 	border: 2px outset #333;
 	background-color: #FFFF99;
-	background-image: url(../images/button_bg.png)
-	
 }
 
 #cta{	
-	width: 938px;
+	width: 97.1875%;  /* 933px/960px */
 	background-color: #660099;
-	border: 2px outset #333;
+	border: 2px outset #787878;
 	border-radius: 10px;
-	box-shadow: 2px 2px 2px #333;
+	box-shadow: 2px 2px 2px #888;
 	color: #E6E6FF;
-	padding: 0px 10px 10px 10px;
-	margin-bottom: 20px;
+	padding: 0% 1.0416667% 1.0416667% 1.0416667%; /* 0px 10px 10px 10px */
+	margin-bottom: 2.083333333%; /*20px*/
 	overflow: hidden;
 }
 
@@ -198,6 +216,7 @@ h5{
 /* Advertising-------------------------------------------------------------------*/
 
 aside{
+	width: 99.583333%; /* 956px/960px */
 	clear: left;
 	background-color: #888;
 	border: 2px outset #333;
@@ -209,11 +228,12 @@ aside{
 /* Footer------------------------------------------------------------------------*/
 
 .copyright{
+	width: 97.5%; /* 936px/960px */
 	background-color: #000;
 	border: 2px outset #333;
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px #333;
-	font-size: 16px;
+	font-size: 1em;
 	color: #E6E6FF;
 	text-align: center;
 	padding: 10px;
