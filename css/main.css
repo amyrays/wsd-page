@@ -1,7 +1,8 @@
 /* Color Swatch------------------------------------------------------------------------
 		Text		#E6E6FF
 		Black		#000
-		Purple		#660099	
+		Purple		#660099
+		Yellow		#FFFF00	
 -------------------------------------------------------------------------------------*/
 body{
 	font-family: 'Josefin Sans', sans-serif;
@@ -16,11 +17,12 @@ li{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.25em; /* 20px */
 	line-height: 1.2;
-	margin: 0;
+	margin-bottom: 0;
 }
 
 p{
 	font-size: 1.25em; /* 20px */
+	margin: 0 0 1.041666666% 0;
 }
 
 
@@ -48,11 +50,9 @@ a:active{
 
 nav ul{
 	width: 95.3125%; /* 915px/960px */
-	
 	list-style-type: none;
-	padding: 0;
-	padding-left: 1.041666666%; /*10px*/
-	margin: 6.25% 0% 1.041666666% 8.333333333%; /*60px 0px 10px 80px*/
+	padding-left: 1.041666666%; /* 10px */
+	margin: 6.25% 0 0 8.333333333%; /* 60px 0px 0px 80px */
 }
 
 nav ul li{
@@ -60,6 +60,7 @@ nav ul li{
 	font-size: 2.25em; /* 36px/16px */
 	float: left;
 	overflow: hidden;
+	margin-bottom: 1.041666666%; /* 10px */
 }
 
 nav ul li a{
@@ -97,8 +98,8 @@ h1, h2, h3, h4, h5{
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 2em;
 	text-shadow: 4px 4px 4px #aaa;
-	margin-bottom: 0%;
-	padding-bottom: 0%;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 h6{
@@ -109,8 +110,8 @@ h6{
 
 h1, h2, h3, h4, h5, h6{
 	text-align: center;
-	margin: 0%;
-	padding: 1.041666666% /*10px;*/
+	margin: 0;
+	padding: 1.041666666% /* 10px */
 }
 
 #branding{
@@ -128,7 +129,7 @@ section{
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px #333;
 	color: #E6E6FF;
-	padding: 0% 1.0416667% 1.4583333%; /* 0px 10px 14px */
+	padding: 0 1.0416667% 1.0416667%; /* 0px 10px 10px */
 	clear: left;
 	float: left;
 }
@@ -153,7 +154,7 @@ section{
 ol li{
 	font-size: 1.125em; /* 18px */
 	margin: 0;
-	
+	padding: 0 1.0416667% 0 6.4935065%;
 }
 
 /* Testimonials-----------------------------------------------------------*/
@@ -168,13 +169,13 @@ ol li{
 	clear: left;
 }
 .testimonials div p{
-	padding: 0% 1.0416667%; /* 0px 10px */
+	padding: 0 1.0416667%; /* 0px 10px */
 	-moz-column-count: 3; 
 	-moz-column-gap: 1em; 
-	-moz-column-rule: 0.10416667% /*1px*/ #E6E6FF; 
+	-moz-column-rule: 0.10416667% /* 1px */ #E6E6FF; 
 	-webkit-column-count: 3; 
 	-webkit-column-gap: 1em; 
-	-webkit-column-rule: 0.10416667% /*1px*/ #E6E6FF;
+	-webkit-column-rule: 0.10416667% /* 1px */ #E6E6FF;
 	text-align: justify;
 }
 
@@ -188,8 +189,8 @@ ol li{
 	text-align: center;
 	line-height: 40px;
 	text-decoration: none;
-	margin: 1.0416667% 0% 1.0416667% 2.083333333%; /*10px 0px 10px 20px*/
-	padding-top: 1.458333333%; /*14px*/
+	margin: 1.0416667% 0 1.0416667% 2.083333333%; /* 10px 0px 10px 20px */
+	padding-top: 1.458333333%; /* 14px */
 	border-radius: 10px;
 	border: 2px outset #333;
 	background-color: #FFFF99;
@@ -202,21 +203,25 @@ ol li{
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px #888;
 	color: #E6E6FF;
-	padding: 0% 1.0416667% 1.0416667% 1.0416667%; /* 0px 10px 10px 10px */
-	margin-bottom: 2.083333333%; /*20px*/
+	padding: 0 1.0416667% 1.0416667% 1.0416667%; /* 0px 10px 10px 10px */
+	margin-bottom: 2.083333333%; /* 20px */
 	overflow: hidden;
 }
 
 #cta ul{
 	clear: left;
-	padding-left: 5px;
+	padding-left: 0.520833333%; /* 5px */
 }
 
 #cta ul li{
 	list-style-type: none;
 	float: left;
-	padding-right: 15px;
+/*	padding-right: 1.5625%; /* 15px */ 
 	
+}
+
+.img_container{
+	border: 4px outset #FFFF00;
 }
 
 
@@ -231,6 +236,7 @@ aside{
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px #333;
 	color: #E6E6FF;
+	margin-bottom: 2.083333333%;
 }
 
 /* Footer------------------------------------------------------------------------*/
@@ -244,7 +250,7 @@ aside{
 	font-size: 1em;
 	color: #E6E6FF;
 	text-align: center;
-	padding: 10px;
+	padding: 1.0416667%; /* 10px */
 }
 
 /* Other Page Elements-----------------------------------------------------------*/
