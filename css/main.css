@@ -47,10 +47,12 @@ a:active{
 }
 
 nav ul{
-	width: 83.333333%; /* 800px/960px */
-	margin: 0 auto;
+	width: 95.3125%; /* 915px/960px */
+	
 	list-style-type: none;
 	padding: 0;
+	padding-left: 1.041666666%; /*10px*/
+	margin: 6.25% 0% 1.041666666% 8.333333333%; /*60px 0px 10px 80px*/
 }
 
 nav ul li{
@@ -62,32 +64,33 @@ nav ul li{
 
 nav ul li a{
 	text-decoration: none;
-	background: #FFFF00;
+	background: #660099;
 	display: block;
 	height: 44px;
 	line-height: 44px;
 	text-align: center;
+	border: 2px outset #333;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #333;
 }
 
-a:link{
+nav ul li a:link{
 	color: #E6E6FF;
 }
 
-a:visited{
+nav ul li a:visited{
 	color: #C71585;
 }
 
-a:hover{
-	color: #FFFF00;
-	background: #660099;
+nav ul li a:hover{
+	color: #000;
+	background: #FFFF00;
 }
 
-a:active{
+nav ul li a:active{
 	color: #FFFF00;
 	background: #000;
 }
-
-
 
 /* Headers-----------------------------------------------------------------------*/
 h1, h2, h3, h4, h5{
