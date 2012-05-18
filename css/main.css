@@ -118,9 +118,6 @@ h1, h2, h3, h4, h5, h6{
 	text-indent: -90000px;
 }
 
-/* Paragraphs--------------------------------------------------------------------*/
-
-
 /* Mission Statement------------------------------------------------------------*/
 section{
 	width: 63.75%; /* 612px/960px */
@@ -137,6 +134,7 @@ section{
 	text-align: justify;
 	margin: 0;
 }
+
 /* Description-------------------------------------------------------------------*/
 .description{
 	width: 32.083333%; /* 308px/960px */
@@ -211,17 +209,21 @@ ol li{
 #cta ul{
 	clear: left;
 	padding-left: 0.520833333%; /* 5px */
+	margin-top: 0;
 }
 
 #cta ul li{
 	list-style-type: none;
 	float: left;
 /*	padding-right: 1.5625%; /* 15px */ 
-	
 }
 
 .img_container{
 	border: 4px outset #FFFF00;
+}
+
+.img_container img{
+	max-width: 100%;
 }
 
 
@@ -253,9 +255,22 @@ aside{
 	padding: 1.0416667%; /* 10px */
 }
 
-/* Other Page Elements-----------------------------------------------------------*/
+/* =Media Queries-----------------------------------------------------------*/
 
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width:768px)and (max-width:959px){
 
+}
+
+/* Mobile Landscape size to tablet portrait (devices and browsers) */
+@media only screen and (min-width:480px)and (max-width:767px){
+
+}
+
+/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+@media only screen and (max-width:479px){
+
+}
 
 
 
