@@ -6,7 +6,8 @@
 -------------------------------------------------------------------------------------*/
 body{
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 100%/1.2;
+	font-size: 100%;
+	line-height: 1.2;
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0; 
@@ -46,6 +47,7 @@ a:active{
 #logo{
 	float: left;
 	display: block;
+	max-width: 100%;
 }
 
 nav ul{
@@ -184,6 +186,7 @@ ol li{
 	display: block;
 	width: 16.666667%; /* 160px/960px */
 	height: 40px;
+	font-size: 1.5em;
 	text-align: center;
 	line-height: 40px;
 	text-decoration: none;
@@ -260,15 +263,53 @@ aside{
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media screen and (min-width:768px)and (max-width:959px){
 
+#logo{width: 20%;}
+h1,h2,h3,h4,h5,h6{font-size: 1.75em;}
+li p{font-size: 1.2em;}
+nav ul{max-width: 100%; margin: 0 0 0 5%;}
+nav ul li{max-width: 20%; font-size: 2em;}
+section {width: auto; float: none; margin-bottom: 1.0416667%; font-size: 1.25em;}
+.description{width: auto; float: none;margin-left: 0; font-size: 1.25em;}
+.testimonials p{font-size: 1.25em;}
+ol li{padding-left: 33.246414602%; list-style-type: none;}
+#cta img{display: none;}
+.img_container{display: none;}
+.button{width: 40%; margin-left: 30%;}
 }
 
 /* Mobile Landscape size to tablet portrait (devices and browsers) */
 @media only screen and (min-width:480px)and (max-width:767px){
 
+#logo{width: 20%;}
+h1,h2,h3,h4,h5,h6{font-size: 1.5em;}
+li p{font-size: 1em;}
+nav ul{max-width: 100%; margin: 0 0 1.0416667% 5%; float: none;}
+nav ul li{max-width: 20%; font-size: 1.25em;}
+section{width: auto; float: none; margin-bottom: 1.0416667%;}
+.description{width: auto; float: none;margin-left: 0;}
+.testimonials p{font-size: 1em;}
+ol li{padding-left: 33.246414602%; list-style-type: none;}
+#cta img{display: none;}
+.img_container{display: none;}
+.button{width: 40%; margin-left: 30%;}
 }
 
 /* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
 @media only screen and (max-width:479px){
+
+#logo{display: none;}
+h1,h2,h3,h4,h5,h6{font-size: 1em;}
+li p{font-size: 0.75em;}
+nav{max-width: 100%;}
+/*nav ul{max-width: 100%; margin: 0 0 1.0416667% 5%; float: none;}*/
+nav ul li{max-width: 50%; font-size: 1em;}
+section{width: auto; float: none; margin-bottom: 1.0416667%; font-size: 0.75em;}
+.description{display: none;}
+.testimonials{display: none;}
+#cta img{display: none;}
+.img_container{display: none;}
+.button{width: 40%; margin-left: 30%; font-size: 1em;}
+}
 
 }
 
