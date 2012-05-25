@@ -179,7 +179,7 @@ textarea:focus{
 }
 
 input{
-	width: 195px;
+	width: 75%;
 }
 
 input textarea{
@@ -202,7 +202,7 @@ h3{
 	border: 2px outset #333;
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px;
-	font-size: 2em;
+	font-size: 1.5em;
 	margin-left: 25%;
 	margin-top: 2.1299255%;
 }
@@ -232,4 +232,217 @@ aside{
 	color: #E6E6FF;
 	text-align: center;
 	padding: 1.0416667%; /* 10px */
+}
+
+
+
+/* =Media Queries-----------------------------------------------------------*/
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width:768px)and (max-width:959px)
+
+{
+
+#logo{
+	width: 20%;
+}
+
+h1,h2,h3,h4{
+	font-size: 1.75em;
+}
+
+nav ul{
+	max-width: 100%; 
+	margin: 0 0 1.0416667% 0%; 
+	float: none;
+}
+
+nav ul li{
+	max-width: 20%; 
+	font-size: 1.75em;
+}
+
+section{
+	width: auto; 
+	float: none; 
+	margin-bottom: 1.0416667%;
+	padding: 1.0416667%;
+}
+
+table{
+	margin: 0;
+}
+
+th{
+	font-size:  1.5em;
+}
+
+td{
+	font-size: 1.5em;
+}
+
+#user_details{
+	float: left;
+}
+
+#user_message{
+	float: right;
+}
+
+label{
+	font-size: 1.25em;
+}
+
+textarea{
+	width: 75%;
+}
+
+.button{
+	width: 51%; 
+	margin-left: 12.5%;
+}
+
+}
+
+
+
+/* Mobile Landscape size to tablet portrait (devices and browsers) */
+@media only screen and (min-width:480px)and (max-width:767px)
+
+{
+
+#logo{
+	width: 20%;
+}
+
+h1,h2,h3,h4{
+	font-size: 1.75em;
+}
+
+nav ul{
+	max-width: 100%; 
+	margin: 0 0 1.0416667% 5%; 
+	float: none;
+}
+
+nav ul li{
+	max-width: 20%; 
+	font-size: 1.5em;
+}
+
+section{
+	width: auto; 
+	float: none; 
+	margin-bottom: 1.0416667%;
+	padding: 1.0416667%;
+}
+
+table{
+	margin: 0;
+}
+
+th{
+	font-size:  1.25em;
+}
+
+td{
+	font-size: 1.25em;
+}
+
+#user_details{
+	float: none;
+}
+
+#user_message{
+	float: none;
+}
+
+label{
+	font-size: 1.15em;
+}
+
+textarea{
+	width: 50%;
+}
+
+.button{
+	width: 51%; 
+	margin-left: 0;
+}
+
+}
+
+/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+@media only screen and (max-width:479px)
+
+{
+
+#logo{
+	display: none;
+}
+
+h1,h2,h3,h4{
+	font-size: 1.25em;
+}
+
+nav ul{
+	max-width: 100%; 
+	margin: 0 0 1.0416667% 11%; 
+	float: none;
+}
+
+nav ul li{
+	max-width: 20%; 
+	font-size: 1.25em;
+}
+
+section{
+	width: auto; 
+	float: none; 
+	margin-bottom: 1.0416667%;
+	padding: 1.0416667%;
+}
+
+table{
+	margin: 3.5%;
+	
+}
+
+.remove{
+	display: none;
+}
+
+th{
+	font-size:  1.25em;
+}
+
+td{
+	font-size: 1.25em;
+}
+
+#user_details{
+	float: none;
+	margin-left: 18%;
+}
+
+#user_message{
+	float: none;
+	margin-left: 18%;
+}
+
+label{
+	font-size: 1.15em;
+}
+
+textarea{
+	width: 50%;
+}
+
+.button{
+	width: 51%; 
+	margin-left: 0;
+}
+
 }
